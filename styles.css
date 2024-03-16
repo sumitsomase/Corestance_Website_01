@@ -1,0 +1,145 @@
+#header {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(178, 214, 202);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+  }
+  
+  .container {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+  }
+
+
+  /* Header Text Styles */
+  .header-text {
+    margin-top: 20px;
+  }
+  
+  .header-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    
+    color: #ff004f;
+  }
+  
+  .header-text p {
+    font-size: 24px;
+    
+  
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .header-text {
+      margin-top: 40px;
+    }
+  
+    .header-text h1 {
+      font-size: 36px;
+    }
+  
+    .header-text p {
+      font-size: 18px;
+    }
+}
+
+
+/*--------------------------------------contact card viwe-----------------------*/
+
+
+.container{
+  margin-top: 80px;
+  
+  
+}
+
+.container i{
+  margin-right: 5px;
+}
+
+
+
+
+
+/*--------------------------about-------------------------------------*/
+
+
+
+#about{
+	padding: 80px 0;
+	color: #111010;
+
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.about-col-1{
+	flex-basis: 35%;
+}
+.about-col-1 img{
+	width: 100%;
+	border-radius: 15px;
+
+}
+.about-col-2{
+	flex-basis: 60%;
+}
+.sub-title{
+	font-size: 60px;
+	font-weight: 600;
+	color: #0a0a0a;
+}
+
+
+
+
+
+/*-------------------------footer------------------------------------*/
+
+
+
+footer {
+    width: 100%; /* Corrected 'weight' to 'width' */
+    text-align: center;
+    padding: 25px 0;
+    background: #dad8d8c7;
+    font-weight: 300;
+    margin-top: 100px;
+  }
+  
+  footer i {
+    font-size: 20px;
+    margin-top: 0px;
+    color: #007bff;
+  }
+  
+ 
+  
+  footer p i {
+    margin-right: 5px; /* Add spacing between icon and email */
+    
+  }
+  
+
+  #icon i{
+    font-size: 24px; /* Adjust the size as needed */
+    margin-right: 15px; /* Adjust spacing between icons */
+    color: #333; /* Adjust icon color */
+  }
+  
+ 
+  
+  
